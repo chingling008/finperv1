@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "252395907166",
+    "project_id": "new-money-y463zb",
+    "storage_bucket": "new-money-y463zb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252395907166:android:cb58213aa0ca32f9a62ccf",
+        "android_client_info": {
+          "package_name": "com.mycompany.newmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252395907166-gtmp29sqf4lcv6kebr4u479iftfadjbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.newmoney",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "252395907166-e2uidt3c8g6g2t5dbpjhh8v5furgrqvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKfhxKrnxeDsX_VjcMXbCisatcXP4A_zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252395907166-e2uidt3c8g6g2t5dbpjhh8v5furgrqvc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "252395907166-f4r6qoimui6m3ii6tlaengs1ce93kaea.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.newmoney"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
