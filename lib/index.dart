@@ -12,4 +12,10 @@ export '/simple_auth_flow/auth_3_forgot_password/auth3_forgot_password_widget.da
 export '/simple_auth_flow/welcome_page/welcome_page_widget.dart'
     show WelcomePageWidget;
 export '/navigation/home_page/home_page_widget.dart' show HomePageWidget;
-export '/add_transaction/add_transaction_widget.dart' show AddTransactionWidget;
+export '/navigation/add_transaction/add_transaction_widget.dart'
+    show AddTransactionWidget;
+export '/navigation/view_budget_page/view_budget_page_widget.dart'
+    show ViewBudgetPageWidget;
+export '/navigation/set_goals_page/set_goals_page_widget.dart'
+    show SetGoalsPageWidget;
+export '/navigation/final_page/final_page_widget.dart' show FinalPageWidget;

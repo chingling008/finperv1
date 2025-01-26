@@ -128,6 +128,21 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'addTransaction',
           path: '/addTransaction',
           builder: (context, params) => const AddTransactionWidget(),
+        ),
+        FFRoute(
+          name: 'ViewBudgetPage',
+          path: '/viewBudgetPage',
+          builder: (context, params) => const ViewBudgetPageWidget(),
+        ),
+        FFRoute(
+          name: 'SetGoalsPage',
+          path: '/setGoalsPage',
+          builder: (context, params) => const SetGoalsPageWidget(),
+        ),
+        FFRoute(
+          name: 'FinalPage',
+          path: '/finalPage',
+          builder: (context, params) => const FinalPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
